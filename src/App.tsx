@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import Header from "@/components/Header"; 
 import Hero from "@/components/Hero";
+import ServicesSection from "@/components/ServicesSection";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       {/* Contenu principal (Le Hero) */}
       <main className="flex-1 flex flex-col items-center justify-center gap-4 py-12">
         <Hero />
+        <ServicesSection />
       </main>
     </div>
      )
