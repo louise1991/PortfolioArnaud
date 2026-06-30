@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
-import Header from "./components/ui/header"
+import Header from "@/components/Header"; 
+import Hero from "@/components/Hero";
 
 export default function App() {
   return (
@@ -8,18 +9,9 @@ export default function App() {
       <Header />
       
       {/* Contenu principal (Le Hero) */}
-      <main className="flex-1 flex flex-col items-center justify-center gap-4 px-4 py-24">
-        <h1 className="text-3xl font-bold tracking-tight text-center">
-          Système Radar Initialisé 📡
-        </h1>
-        <p className="text-slate-400 max-w-md text-center text-sm">
-          Le projet est configuré avec Vite, Tailwind v4, TypeScript et Shadcn/ui.
-        </p>
-        
-        <Button className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold shadow-lg shadow-emerald-500/20 cursor-pointer">
-          Lancer le scan projet
-        </Button>
+      <main className="flex-1 flex flex-col items-center justify-center gap-4 py-12">
+        <Hero />
       </main>
     </div>
-  )
+     )
 }
