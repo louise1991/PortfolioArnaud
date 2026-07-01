@@ -1,6 +1,5 @@
-import { Button } from "@/components/ui/button";
-import { NavLink } from "react-router-dom";
 
+import { NavLink } from "react-router-dom";
 export default function Header() {
   const baseStyle =
     "transition-all duration-200 px-4 py-2 rounded-md text-sm font-epilogue font-medium tracking-tight";

@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import "tailwindcss";
 
+/* Déclaration obligatoire pour indiquer au moteur CSS d'animer les pourcentages */
+@property --x1 { syntax: '<percentage>'; inherits: false; initial-value: 0%; }
+@property --y1 { syntax: '<percentage>'; inherits: false; initial-value: 100%; }
+
+@property --x2 { syntax: '<percentage>'; inherits: false; initial-value: 100%; }
+@property --y2 { syntax: '<percentage>'; inherits: false; initial-value: 0%; }
+
+@property --x3 { syntax: '<percentage>'; inherits: false; initial-value: 100%; }
+@property --y3 { syntax: '<percentage>'; inherits: false; initial-value: 100%; }
+
+@property --x4 { syntax: '<percentage>'; inherits: false; initial-value: 20%; }
+@property --y4 { syntax: '<percentage>'; inherits: false; initial-value: 35%; }
 
 @theme {
   /* On s'assure que les variables de base de Shadcn sont prêtes pour la v4 */

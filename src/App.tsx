@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import ServicesSection from "@/components/ServicesSection";
 import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <ServicesSection />
         <ContactSection />
       </main>
+      <Footer />
     </div>
      )
 }
