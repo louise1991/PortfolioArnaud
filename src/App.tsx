@@ -6,7 +6,7 @@ import ContactSection from "@/components/ContactSection";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-50 flex flex-col">
+    <div className="min-h-screen bg-black text-slate-50 flex flex-col">
       {/* Notre nouveau Header est ici ! */}
       <Header />
       
