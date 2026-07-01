@@ -10,7 +10,7 @@ export default function Header() {
   const inactiveStyle =
     "text-slate-400 hover:text-slate-200 hover:bg-slate-800/50";
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-slate-600 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/95">
+    <header className="sticky top-0 z-50 w-full border-b border-slate-600 bg-black">
       <div className="container mx-auto flex h-22 max-w-screen-2xl items-center justify-between px-4">
         {/* LOGO (À gauche) */}
         <div className="flex items-center gap-2 font-mono font-bold tracking-tight text-foreground cursor-pointer">
@@ -26,21 +26,21 @@ export default function Header() {
               d="M145.8 126.426H366.3L392.4 101.802H423.9"
               stroke="#D5D3D3"
               stroke-opacity="0.6"
-              stroke-width="22"
+              stroke-width="18"
               stroke-miterlimit="10"
               stroke-linejoin="round"
             />
             <path
               d="M137.7 125.826V76.5766C137.7 57.3574 122.1 41.7418 102.9 41.7418H64.8C45.6 41.7418 29.7 56.7568 29.7 75.976V126.426C29.7 145.646 45.6 160.661 64.8 160.661H102.9H243.6C254.1 160.661 262.5 152.252 262.5 141.742V120.12C262.5 109.61 254.1 101.201 243.6 101.201H187.5C177 101.201 168.6 92.7928 168.6 82.2823V60.961C168.6 50.4505 177 42.0421 187.5 42.0421H302.7C304.5 42.0421 306 43.5436 306 45.3454V151.351C306 156.456 310.2 160.961 315.6 160.961H324.6C329.7 160.961 334.2 156.757 334.2 151.351V45.0451C334.2 43.2433 335.7 41.7418 337.5 41.7418H430.2H476.7"
               stroke="white"
-              stroke-width="22"
+              stroke-width="18"
               stroke-miterlimit="10"
               stroke-linejoin="round"
             />
             <path
               d="M425.127 101.205L474.505 101.205"
               stroke="white"
-              stroke-width="19"
+              stroke-width="18"
               stroke-miterlimit="10"
             />
             <path
